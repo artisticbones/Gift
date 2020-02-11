@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Surprise" default="1_build">
+<project name="gift" default="1_build">
 	<target name="init">
-		<property name="project.name" value="Surprise" />
-		<property name="jar.name" value="gift" />
+		<property name="project.name" value="gift" />
+		<property name="jar.name" value="Gift" />
 		<property name="src.dir" value="./src" />
 		<property name="web.dir" value="./WebContent" />
 		<property name="build.dir" value="./bin" />
