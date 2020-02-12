@@ -43,7 +43,8 @@ public class CommonFilter extends HttpFilter {
         		|| url.endsWith("/gift/login.jsp") 
         		|| url.endsWith("/gift/validateColorServlet") 
         		|| url.endsWith("/gift/register.jsp")
-        		|| url.endsWith("/gift/404.jsp") 
+        		|| url.endsWith("/gift/404.jsp")
+		        || url.endsWith("/gift/wallpaper/index.html")	
         		|| url.endsWith("/gift/register.action")) {
         	check = false;
         }
